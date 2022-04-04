@@ -15,28 +15,28 @@
     },
     {
         "id": 3,
-        "image": "https://www.bollywoodhungama.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-22-at-5.55.29-PM-1.jpeg",
+        "image": "images/3 cropped.jpg",
         "name": "Richard Hendricks",
         "rating": 4.25,
         "description": "I am using macbook pro m1 for about a year now and I found this laptop to be very efficient in every way. No complains so far. Everything's awesome with this laptop!"
     },
     {
         "id": 4,
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Bertram-Gilfoyle.Silicon-Valley.webp",
+        "image": "images/4 cropped.jpg",
         "name": "Bertram Gilfoyle",
         "rating": 4.5,
         "description": "I am using macbook pro m1 for about a year now and I found this laptop to be very efficient in every way. No complains so far. Everything's awesome with this laptop!"
     },
     {
         "id": 5,
-        "image": "https://i.guim.co.uk/img/media/b2621c6e81d3052198bae627b636d441c8fac948/0_0_5760_3456/master/5760.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=69ea2c83d50da21c9470524dcb3915e6",
+        "image": "images/5 cropped.jpg",
         "name": "Dinesh Chugtai",
         "rating": 4.75,
         "description": "I am using macbook pro m1 for about a year now and I found this laptop to be very efficient in every way. No complains so far. Everything's awesome with this laptop!"
     },
     {
         "id": 6,
-        "image": "https://s1.r29static.com/bin/entry/006/0,96,2000,1500/x,80/1945796/image.jpg",
+        "image": "images/6.jpg",
         "name": "Monica Hall",
         "rating": 5,
         "description": "I am using macbook pro m1 for about a year now and I found this laptop to be very efficient in every way. No complains so far. Everything's awesome with this laptop!"

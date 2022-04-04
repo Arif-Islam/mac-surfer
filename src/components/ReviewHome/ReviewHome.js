@@ -6,9 +6,9 @@ const ReviewHome = () => {
     const [reviews, setReviews] = useReviews();
     // console.log(reviews);
     return (
-        <div className='grid grid-cols-3 w-3/4 mx-auto pt-20 gap-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 w-3/4 xl:w-3/5 2xl:w-3/4 mx-auto pt-20 lg:gap-20 gap-10 pb-4 lg:pb-16'>
             {
-                reviews.map(review => <ReviewCard
+                reviews.slice(0,3).map(review => <ReviewCard
                     key={review.id}
                     review={review}
                 ></ReviewCard>)
