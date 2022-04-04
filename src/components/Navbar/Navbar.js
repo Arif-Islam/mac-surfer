@@ -20,7 +20,7 @@ const Navbar = () => {
             <ul className={`flex flex-col justify-center lg:flex-row absolute lg:static duration-500 ease-in-out ${isOpen ? 'top-20 mx-auto' : 'top-[-135px]'}`}>
                 {
                     routes.map(route => <Link
-                        key={routes.id}
+                        key={route.id}
                         route={route}
                     ></Link>)
                 }
