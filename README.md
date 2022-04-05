@@ -1,14 +1,14 @@
 # Mac Surfer
 
-Mac Surfer is a review site where users share their user experience after using Macbook Pro M1 [Create React App](https://mac-surfer.netlify.app/).
+Mac Surfer is a review site where users share their user experience after using Macbook Pro M1 [To have a glance of the site click here](https://mac-surfer.netlify.app/).
 
 
 About this Site:
-<ol>
-    <li>Macbook Pro M1 review Site</li>
-    <li>User reviews availble after using Macbook Pro M1</li>
-    <li>Will influence you to buy this laptop</li>
-    <li>Get to know about us</li>
-</ol>
+<ul>
+    <li>React Router was used to navigate between different routes like seeing every reviews or about us.</li>
+    <li>In the Reviews route, user reviews are shown.</li>
+    <li>In the Dashboard route, three recharts are shown.</li>
+    <li>In the Blogs route, some questions were answered.</li>
+</ul>
 
 
