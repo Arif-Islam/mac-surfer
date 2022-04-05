@@ -7,6 +7,7 @@ const ReviewCard = (props) => {
     const { image, name, rating, description } = props.review;
 
     return (
+        // review card
         <div className='shadow-lg hover:shadow-xl bg-white w-72 mx-auto md:w-96 h-80 md:h-72 rounded pt-8 mb-10 lg:mb-0'>
             <div className='pb-5'>
                 <img className='w-20 mx-auto -mt-20 rounded-full shadow-lg hover:w-24' src={image} alt="reviewer image" />

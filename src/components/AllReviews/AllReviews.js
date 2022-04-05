@@ -2,6 +2,7 @@ import React from 'react';
 import useReviews from '../../hooks/useReviews';
 import './AllReviews.css';
 import ReviewCard from '../ReviewCard/ReviewCard';
+import Footer from '../Footer/Footer';
 
 const AllReviews = () => {
     const [reviews, setReviews] = useReviews();
@@ -14,6 +15,7 @@ const AllReviews = () => {
             <div className='bg-gray-100'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 w-3/4 xl:w-3/5 2xl:w-3/4 mx-auto pt-20 lg:gap-20 gap-10 pb-4 lg:pb-16'>
                     {
+                        // display every reviews
                         reviews.map(review => <ReviewCard
                             key={review.id}
                             review={review}
@@ -21,6 +23,7 @@ const AllReviews = () => {
                     }
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

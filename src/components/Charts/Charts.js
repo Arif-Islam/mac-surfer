@@ -8,6 +8,7 @@ const Charts = () => {
     return (
         <div className='my-16 xl:my-24'>
             <div className='flex justify-center items-center gap-12 lg:gap-16 2xl:gap-24 flex-wrap'>
+                {/* linechart */}
                 <div className=''>
                     <h2 className='text-blue-700 font-semibold uppercase text-xl mb-10 text-center'>Month Wise Sell</h2>
                     <LineChart width={350} height={300} data={chartData} margin={{ top: 5, right: 30, left: 0, bottom: 5 }}>
@@ -18,6 +19,7 @@ const Charts = () => {
                         <YAxis></YAxis>
                     </LineChart>
                 </div>
+                {/* area chart */}
                 <div className=''>
                     <h2 className='text-blue-700 font-semibold uppercase text-xl mb-10 text-center'>Investment VS Revenue</h2>
                     <AreaChart width={350} height={300} data={chartData}
@@ -41,6 +43,7 @@ const Charts = () => {
                         <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
                     </AreaChart>
                 </div>
+                {/* bar chart */}
                 <div className=''>
                     <h2 className='text-blue-700 font-semibold uppercase text-xl mb-10 text-center'>Investment VS Revenue</h2>
                     <BarChart width={350} height={300} data={chartData} margin={{ top: 5, right: 30, left: 0, bottom: 5 }}>

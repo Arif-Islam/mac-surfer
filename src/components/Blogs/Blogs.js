@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 
 const Blogs = () => {
     return (
+        // QnA Section
         <div className='text-center w-11/12 lg:w-9/12 2xl:w-2/3 mx-auto my-12'>
             <div>
                 <h1 className='text-left font-bold text-2xl 2xl:text-4xl mb-4 xl:mb-6 font-sans'>What is Context API and what is the purpose of it?</h1>
@@ -17,7 +19,11 @@ const Blogs = () => {
                 <p className='text-justify text-gray-800 text-lg mb-4 xl:mb-6'>Inline, block, and inline-block are CSS display properties. When we display items 'inline', their specific Height and Width do not affect how they appear. When items are displayed 'inline-block', they will appear in the same line, with their own Height and Width. The display items 'block' specifies that each item will take up the entire width of the page and start on a new line.
                 </p>
             </div>
+            <div className='fixed bottom-0 left-0 right-0'>
+                <Footer></Footer>
+            </div>
         </div>
+
     );
 };
 

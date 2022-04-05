@@ -4,6 +4,7 @@ import './AboutProduct.css';
 
 const AboutProduct = () => {
     return (
+        // display product image and some text
         <div className='mb-10'>
             <div className='flex flex-col md:grid grid-cols-2 2xl:grid-cols-5 gap-20 md:w-4/5 2xl:w-4/6 mx-auto items-center '>
             <div className='col-span-1 2xl:col-span-3 space-y-4 order-2 md:order-first'>

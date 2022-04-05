@@ -1,5 +1,5 @@
+/* set color for active route */
 .active{
-    
     color: rgb(30 64 175);
 }
 .active:hover{

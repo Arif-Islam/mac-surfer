@@ -10,9 +10,11 @@ import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
-    <div>
+    <div className='min-h-full min-w-full'>
+      {/* header common */}
       <Header></Header>
       <Routes>
+        {/* every route in here */}
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/reviews' element={<AllReviews></AllReviews>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>

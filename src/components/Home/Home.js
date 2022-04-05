@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutProduct from '../AboutProduct/AboutProduct';
 import CustomerReview from '../CustomerReview/CustomerReview';
+import Footer from '../Footer/Footer';
 import './Home.css';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
             <AboutProduct></AboutProduct>
             <CustomerReview></CustomerReview>
+            <Footer></Footer>
         </div>
     );
 };
