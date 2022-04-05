@@ -6,7 +6,7 @@ const Dashboard = () => {
     return (
         <div>
             <Charts></Charts>
-            <div className='fixed bottom-0 left-0 right-0'>
+            <div className='static md:fixed bottom-0 left-0 right-0'>
                 <Footer></Footer>
             </div>
         </div>
