@@ -1,7 +1,7 @@
 import React from 'react';
 import Rating from 'react-rating';
-import { faStar } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";;
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ReviewCard = (props) => {
     const { image, name, rating, description } = props.review;
@@ -12,7 +12,7 @@ const ReviewCard = (props) => {
                 <img className='w-20 mx-auto -mt-20 rounded-full shadow-lg hover:w-24' src={image} alt="reviewer image" />
             </div>
             <h2 className='text-center pt-2 text-md font-bold text-blue-500 pb-1'>{name}</h2>
-            <div className='flex justify-center text-stone-200 w-full pb-2'>
+            <div className='flex justify-center text-stone-300 w-full pb-2'>
                 <Rating
                     initialRating={rating}
                     emptySymbol={<FontAwesomeIcon icon={faStar} />}
